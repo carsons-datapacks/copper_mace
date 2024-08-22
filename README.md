@@ -8,7 +8,7 @@ The companion resource pack is in the `resource_pack` folder.
 
 Watch the video to see it in action:
 
-[![]()]()
+[![](https://i.ytimg.com/an_webp/64UgGYdaHYs/mqdefault_6s.webp?du=3000&sqp=CNiWmrYG&rs=AOn4CLCll9SHb1gWhj6BAB-j0NFynmCfYw)](https://youtu.be/64UgGYdaHYs)
 
 ### Crafting
 Craft the copper mace with a lightning rod and a heavy core.
