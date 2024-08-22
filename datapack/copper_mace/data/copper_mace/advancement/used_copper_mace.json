@@ -1,0 +1,78 @@
+{
+    "criteria": {
+        "used_copper_mace": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": ["minecraft:mace"],
+                                            "components": {
+                                                "minecraft:custom_data": "{\"copper_mace_charge\": 4}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": ["minecraft:mace"],
+                                            "components": {
+                                                "minecraft:custom_data": "{\"copper_mace_charge\": 3}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": ["minecraft:mace"],
+                                            "components": {
+                                                "minecraft:custom_data": "{\"copper_mace_charge\":2}"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": ["minecraft:mace"],
+                                            "components": {
+                                                "minecraft:custom_data": "{\"copper_mace_charge\":1}"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["used_copper_mace"]
+    ],
+    "rewards": {
+        "function": "copper_mace:hit"
+    }
+}

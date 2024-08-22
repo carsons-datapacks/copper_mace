@@ -1,0 +1,171 @@
+[
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{\"copper_mace_charge\":3}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:4}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_custom_model_data",
+        "value": 13,
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:4}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+
+
+
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{\"copper_mace_charge\":2}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:3}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_custom_model_data",
+        "value": 12,
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:3}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+
+
+
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{\"copper_mace_charge\":1}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:2}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_custom_model_data",
+        "value": 11,
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:2}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+
+
+
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{\"copper_mace_charge\":0b}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:1}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_custom_model_data",
+        "value": 10,
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:mace",
+                            "components": {
+                                "minecraft:custom_data": "{copper_mace_charge:1}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

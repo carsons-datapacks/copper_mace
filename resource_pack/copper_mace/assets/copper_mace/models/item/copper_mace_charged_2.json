@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld_mace",
+    "textures": {
+        "layer0": "minecraft:copper_mace/copper_mace_charged_2"
+    }
+}

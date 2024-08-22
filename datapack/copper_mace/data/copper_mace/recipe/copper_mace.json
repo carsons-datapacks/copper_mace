@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "c",
+      "r"
+    ],
+    "key": {
+      "c": {
+        "item": "minecraft:heavy_core"
+      },
+      "r": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "result": {
+      "id": "minecraft:mace",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "\"Copper Mace\"",
+        "minecraft:custom_model_data": 10,
+        "minecraft:custom_data": {
+          "copper_mace_charge": 0
+        }
+      }
+    }
+  }
+  

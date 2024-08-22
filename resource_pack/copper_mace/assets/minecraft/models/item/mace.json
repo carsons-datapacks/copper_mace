@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld_mace",
+  "textures": {
+    "layer0": "minecraft:item/mace"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 10 }, "model": "copper_mace:item/copper_mace" },
+    { "predicate": { "custom_model_data": 11 }, "model": "copper_mace:item/copper_mace_charged_1" },
+    { "predicate": { "custom_model_data": 12 }, "model": "copper_mace:item/copper_mace_charged_2" },
+    { "predicate": { "custom_model_data": 13 }, "model": "copper_mace:item/copper_mace_charged_3" },
+    { "predicate": { "custom_model_data": 14 }, "model": "copper_mace:item/copper_mace_charged_4" }
+  ]
+}

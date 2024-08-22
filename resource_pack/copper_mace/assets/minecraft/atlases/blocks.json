@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "copper_mace",
+            "prefix": "copper_mace/"
+        }
+    ]
+}
